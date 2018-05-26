@@ -11,6 +11,7 @@ public class Application {
         List<Customer> allrecords = cr.findAllRecords();
         for (Customer customer : allrecords) {
             System.out.println(customer);
+
         }
     }
 }
